@@ -56,7 +56,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(task_text);
     }
 
-    if (data[exercise_id]["answer"] != null) {
+    // if (data[exercise_id]["answer"] != null) {
         let answer = document.createElement("div");
         answer.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
 
@@ -64,46 +64,65 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         let answer_text = document.createElement("p");
         answer_text.style.display = "none";
 
-        let button = document.createElement("button")
-        button.setAttribute("type", "button")
-        button.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+        let answ_button = document.createElement("button")
+        answ_button.setAttribute("type", "button")
+        answ_button.setAttribute("class", "btn btn-outline-primary btn-sm")
+        
+        answ_button.setAttribute("style", "margin: 3px")    
+        // answ_button.setAttribute("style", "margin-bottom: 5px")
+        // answ_button.appendChild(document.createElement("br"))
 
         let new_answer = data[exercise_id]["answer"]
 
-        button.onclick = function() {
+        answ_button.onclick = function() {
             show_answer(answer_text, new_answer);
         };
-        button.innerHTML = "Answer key";
+        answ_button.innerHTML = "Answer key";
 
-        answer.appendChild(answer_text)
-        main_content.appendChild(button)
-        main_content.appendChild(answer)
-    }
+        
+    // }
 
 
-    if (data[exercise_id]["take_away_idea"] != null) {
-        let answer = document.createElement("div");
-        answer.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
+    // if (data[exercise_id]["take_away_idea"] != null) {
+        let ta_idea = document.createElement("div");
+        ta_idea.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
 
 
-        let answer_text = document.createElement("p");
-        answer_text.style.display = "none";
+        let ta_idea_text = document.createElement("p");
+        // ta_idea_text.style.display = "none";
 
-        let button = document.createElement("button")
-        button.setAttribute("type", "button")
-        button.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+        let ta_idea_button = document.createElement("button")
+        ta_idea_button.setAttribute("type", "button")
+        ta_idea_button.setAttribute("class", "btn btn-outline-primary btn-sm")
+        ta_idea_button.setAttribute("style", "margin: 3px")
 
-        let new_answer = data[exercise_id]["take_away_idea"]
+        let new_ta_idea = data[exercise_id]["take_away_idea"]
 
-        button.onclick = function() {
-            show_answer(answer_text, new_answer);
+        ta_idea_button.onclick = function() {
+            show_answer(ta_idea_text, new_ta_idea);
         };
-        button.innerHTML = "Take-away idea";
+        ta_idea_button.innerHTML = "Take-away idea";
+
+        ta_idea.appendChild(ta_idea_text)
+        
+
 
         answer.appendChild(answer_text)
-        main_content.appendChild(button)
+
+        
+        
+        main_content.appendChild(answ_button)
         main_content.appendChild(answer)
-    }
+        // main_content.appendChild(document.createElement("br"))
+        main_content.appendChild(ta_idea_button)
+        
+        
+        // main_content.appendChild(document.createElement("br"))
+        
+        
+        main_content.appendChild(ta_idea)
+
+    // }
 
 
     tree.appendChild(main_content)
