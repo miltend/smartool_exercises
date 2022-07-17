@@ -9,7 +9,12 @@ for (let key of Object.keys(json_data)) {
 
 
 const data = records[0]
-const main_content = document.createElement("div")
+
+const level_part = document.createElement("div")
+level_part.setAttribute("class", "container px-4")
+
+var main_content = document.createElement("div")
+main_content.setAttribute("id", "main")
 main_content.setAttribute("class", "container px-4")
 
 const exercises_amount = Object.keys(data).length
@@ -25,12 +30,80 @@ function show_answer(x, answer_key) {
     }
 }
 
+function choose_level() {
 
-for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
+    main_content.innerHTML = ""
+
+    console.log(main_content)
+    
+
+    let level = select_level.options[select_level.selectedIndex].text
+
+    for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {  
+
+        if (level == "All levels") {
+            // console.log(1)
+            build_exercise(exercise_id)
+        } else if (level == data[exercise_id]["level"] || data[exercise_id]["level"] == "All levels") {
+            // console.log(2)
+            build_exercise(exercise_id)
+        }
+    }
+    // return select_level.options[select_level.selectedIndex].text121
+}
+
+
+
+
+var form_level = document.createElement("div")
+form_level.setAttribute("class", "container px-4")
+form_level.innerHTML = "Choose level:"
+
+var select_level = document.createElement("select")
+select_level.setAttribute("name", "level")
+select_level.setAttribute("id", "level")
+
+var array_levels = ["A1", "A2", "B1", "B2", "All levels"]
+
+for (const ind in array_levels) {
+    let option = document.createElement("option")
+    option.setAttribute("value", array_levels[ind])
+    option.innerHTML = array_levels[ind]
+    select_level.appendChild(option)
+}
+
+
+// var levels = document.getElementById("level")
+let level_button = document.createElement("input")
+level_button.setAttribute("type", "button")
+// choose_button.setAttribute("onclick", "choose_level()")
+level_button.setAttribute("value", "Choose")
+
+level_button.onclick = function() {
+    choose_level();
+};
+
+form_level.appendChild(select_level)
+form_level.appendChild(level_button)
+
+
+level_part.append(form_level)
+
+
+// let level = choose_level()
+
+// levels.appendChild(choose_button)
+
+
+
+
+
+
+
+
+function build_exercise(exercise_id) {
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
-
-    // title+ topic + level in each exercise? story time?
     task_title.innerHTML = `${exercise_id}. ${data[exercise_id]["topic"]}&ensp;<i style="font-weight:normal">${data[exercise_id]["level"]}</i>`;
     
     main_content.appendChild(task_title);
@@ -40,11 +113,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         instructions.innerHTML = data[exercise_id]["title"];
         main_content.appendChild(instructions);
     }
-
-    
-
-    
-
 
     if (data[exercise_id]["task"] != null) {
         var subtasks_amount = Object.keys(data[exercise_id]["task"]).length;
@@ -56,7 +124,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(task_text);
     }
 
-    // if (data[exercise_id]["answer"] != null) {
         let answer = document.createElement("div");
         answer.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
 
@@ -68,9 +135,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         answ_button.setAttribute("type", "button")
         answ_button.setAttribute("class", "btn btn-outline-primary btn-sm")
         
-        answ_button.setAttribute("style", "margin: 3px")    
-        // answ_button.setAttribute("style", "margin-bottom: 5px")
-        // answ_button.appendChild(document.createElement("br"))
+        answ_button.setAttribute("style", "margin: 3px")
 
         let new_answer = data[exercise_id]["answer"]
 
@@ -79,18 +144,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         };
         answ_button.innerHTML = "Answer key";
 
-        
-    // }
-
-
-    // if (data[exercise_id]["take_away_idea"] != null) {
         let ta_idea = document.createElement("div");
         ta_idea.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
 
 
         let ta_idea_text = document.createElement("p");
-        // ta_idea_text.style.display = "none";
-
         let ta_idea_button = document.createElement("button")
         ta_idea_button.setAttribute("type", "button")
         ta_idea_button.setAttribute("class", "btn btn-outline-primary btn-sm")
@@ -104,30 +162,35 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         ta_idea_button.innerHTML = "Take-away idea";
 
         ta_idea.appendChild(ta_idea_text)
-        
-
 
         answer.appendChild(answer_text)
 
-        
-        
         main_content.appendChild(answ_button)
         main_content.appendChild(answer)
-        // main_content.appendChild(document.createElement("br"))
         main_content.appendChild(ta_idea_button)
-        
-        
-        // main_content.appendChild(document.createElement("br"))
         
         
         main_content.appendChild(ta_idea)
 
-    // }
-
-
-    tree.appendChild(main_content)
+        
 }
 
+
+
+
+
+
+// if (levels.selectedIndex == "All levels") {
+//     var condition 
+// } else {
+//     var condition
+// }
+
+
+
+
+tree.appendChild(level_part)
+tree.appendChild(main_content)
 
 
 document.getElementById("content").appendChild(tree)
