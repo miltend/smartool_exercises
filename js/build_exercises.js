@@ -12,6 +12,7 @@ const data = records[0]
 
 const level_part = document.createElement("div")
 level_part.setAttribute("class", "container px-4")
+level_part.setAttribute("style", "margin-top: 20px")
 
 var main_content = document.createElement("div")
 main_content.setAttribute("id", "main")
@@ -31,32 +32,21 @@ function show_answer(x, answer_key) {
 }
 
 function choose_level() {
-
     main_content.innerHTML = ""
-
-    console.log(main_content)
-    
-
     let level = select_level.options[select_level.selectedIndex].text
-
     for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {  
-
         if (level == "All levels") {
-            // console.log(1)
             build_exercise(exercise_id)
         } else if (level == data[exercise_id]["level"] || data[exercise_id]["level"] == "All levels") {
-            // console.log(2)
             build_exercise(exercise_id)
         }
     }
-    // return select_level.options[select_level.selectedIndex].text121
 }
 
 
 
 
 var form_level = document.createElement("div")
-form_level.setAttribute("class", "container px-4")
 form_level.innerHTML = "Choose level:"
 
 var select_level = document.createElement("select")
@@ -90,12 +80,6 @@ form_level.appendChild(level_button)
 level_part.append(form_level)
 
 
-// let level = choose_level()
-
-// levels.appendChild(choose_button)
-
-
-
 
 
 
@@ -125,11 +109,14 @@ function build_exercise(exercise_id) {
     }
 
         let answer = document.createElement("div");
-        answer.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
+        answer.setAttribute("class", "d-grid gap-3 d-md-flex");
 
 
         let answer_text = document.createElement("p");
         answer_text.style.display = "none";
+        answer_text.style.fontSize = "15px";
+        answer_text.style.fontStyle = "italic";
+        
 
         let answ_button = document.createElement("button")
         answ_button.setAttribute("type", "button")
@@ -145,10 +132,14 @@ function build_exercise(exercise_id) {
         answ_button.innerHTML = "Answer key";
 
         let ta_idea = document.createElement("div");
-        ta_idea.setAttribute("class", "d-grid gap-3 d-md-flex justify-content-md-end");
+        ta_idea.setAttribute("class", "d-grid gap-3 d-md-flex");
 
 
         let ta_idea_text = document.createElement("p");
+        ta_idea_text.style.display = "none";
+        ta_idea_text.style.fontSize = "15px";
+        ta_idea_text.style.fontStyle = "italic";
+
         let ta_idea_button = document.createElement("button")
         ta_idea_button.setAttribute("type", "button")
         ta_idea_button.setAttribute("class", "btn btn-outline-primary btn-sm")
@@ -174,19 +165,6 @@ function build_exercise(exercise_id) {
 
         
 }
-
-
-
-
-
-
-// if (levels.selectedIndex == "All levels") {
-//     var condition 
-// } else {
-//     var condition
-// }
-
-
 
 
 tree.appendChild(level_part)
