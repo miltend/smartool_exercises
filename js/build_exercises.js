@@ -94,7 +94,7 @@ function build_exercise(exercise_id) {
 
     if (data[exercise_id]["title"] != null) {
         let instructions = document.createElement("div");
-        instructions.innerHTML = data[exercise_id]["title"];
+        instructions.innerHTML = `<b>Choose:</b> ${data[exercise_id]["title"]}`;
         main_content.appendChild(instructions);
     }
 
