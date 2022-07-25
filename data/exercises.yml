@@ -8,6 +8,16 @@ exercises:
                 What does the last letter mean?<br>
                 (Tip: listen to the example sentences)"
                 answer: "All of the words stated end with ь. This letter doesn’t represent a sound, it indicates softness (palatalization) of a previous consonant." 
+                extra_task: ~
+        -
+                topic: Sounds and Letters
+                level: A1
+                title: "Search by dictionary (A1)<br>
+                Find words весёлый, дешёвый, жёлтый, зелёный, лёгкий, серьёзный, чёрный. How do you pronounce them? Which vowel is stressed?<br>
+                (Tip: listen to the example sentences)"
+                answer: "In all the adjectives from the list ё is stressed. It’s always stressed (for example, in nouns ребёнок, тётя, учёный as well)."
+                take_away_idea: Ё is almost always stressed.
+                extra_task: ~
 
         -
                 topic: Sounds and Letters
@@ -98,7 +108,7 @@ exercises:
                 level: A1
                 title: "Search by dictionary (А1)<br>
                 Find words человек, ребёнок, год and look at the forms in which they are used. Do you notice anything unusual?"
-                answer: "Words человек, ребёнок, год have different stems in Single and Plural forms: человек - люди, ребёнок - дети, год - лет."
+                answer: "Words человек, ребёнок, год have different stems in sinular and plural forms: человек - люди, ребёнок - дети, год - лет."
                 take_away_idea: "Some high frequency words might look different in singular and plural, it’s important to pay attention and memorize them."
                 extra_task: ~
         -
@@ -136,3 +146,4 @@ exercises:
                 answer: "Вы- is a verb prefix with the meaning ‘out (of something)’. All of the verbs have an element of meaning ‘removing something (or someone, oneself) from a container’"
                 take_away_idea: "Some verb prefixes in Russian modify meanings of verbs in specific ways. If you know the verb without the prefix, you likely can figure out what it means with one." 
                 extra_task: ~
+
