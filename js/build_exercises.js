@@ -113,6 +113,33 @@ function build_exercise(exercise_id) {
         instructions.innerHTML = `<b>Choose:</b> ${data[exercise_id]["title"]}`;
         main_content.appendChild(instructions);
     }
+    if (data[exercise_id]["extra_task"] != null) {
+        let extra_task = document.createElement("div");
+        extra_task.setAttribute("class", "d-grid gap-3 d-md-flex");
+
+
+        let extra_task_text = document.createElement("p");
+        extra_task_text.style.display = "none";
+        // ta_idea_text.style.fontSize = "15px";
+        // ta_idea_text.style.fontStyle = "italic";
+
+        let extra_task_button = document.createElement("button")
+        extra_task_button.setAttribute("type", "button")
+        extra_task_button.setAttribute("class", "btn btn-outline-primary btn-sm")
+        extra_task_button.setAttribute("style", "margin: 3px")
+
+
+        let new_extra_task = data[exercise_id]["extra_task"]
+
+        extra_task_button.onclick = function() {
+            show_answer(extra_task_text, new_extra_task);
+        };
+        extra_task_button.innerHTML = "Extra task";
+
+        extra_task.appendChild(extra_task_text)
+        main_content.appendChild(extra_task_button)
+        main_content.appendChild(extra_task)
+    }
 
     let answer = document.createElement("div");
     answer.setAttribute("class", "d-grid gap-3 d-md-flex");
@@ -168,7 +195,8 @@ function build_exercise(exercise_id) {
         ta_idea.appendChild(ta_idea_text)
         main_content.appendChild(ta_idea_button)
         main_content.appendChild(ta_idea)
-    }       
+    }
+
 }
 
 
