@@ -7,7 +7,7 @@ for (let key of Object.keys(json_data)) {
     records[key] = json_data[key];
 }
 
-
+console.log(1)
 const data = records[0]
 
 
