@@ -3,7 +3,16 @@ exercises:
         -
                 topic: Sounds and Letters
                 level: A1
-                title: Search by dictionary<br>
+                title: "Search by dictionary (A1)<br>
+                Find words есть, июль, курить, любовь, ночь, обувь, октябрь, тетрадь, часть.<br> 
+                What does the last letter mean?<br>
+                (Tip: listen to the example sentences)"
+                answer: "All of the words stated end with ь. This letter doesn’t represent a sound, it indicates softness (palatalization) of a previous consonant." 
+
+        -
+                topic: Sounds and Letters
+                level: A1
+                title: Search by dictionary (all levels)<br>
 
                         Find all the words that begin with a-<br>
 
@@ -33,18 +42,18 @@ exercises:
         -
                 topic: Meanings of words
                 level: A1
-                title: "Search by dictionary
+                title: "Search by dictionary (A1)<br>
 
-                        Look up these words: российский, русский, иностранный. Look at the sentences.
+                        Look up these words: российский, русский, иностранный. Look at the sentences.<br>
 
                         What kinds of items can be российский and what kind can be русский? Can you compare this with the use of the word иностранный?"
-                answer: "We use российский to describe items connected to Russia as a state (паспорт, Федерация)
+                answer: "We use российский to describe items connected to Russia as a state (паспорт, Федерация)<br>
 
-                        We use русский to describe items connected to the Russian language, culture, and ethnic identity (алфавит, литература, авангард).
+                        We use русский to describe items connected to the Russian language, culture, and ethnic identity (алфавит, литература, авангард).<br>
 
                         For many items, you can use both adjectives, depending on what you want to emphasize.
 
-                        For example: российские журналисты are journalists from Russia, where as русские журналисты are journalists who are Russian.
+                        For example: российские журналисты are journalists from Russia, where as русские журналисты are journalists who are Russian.<br>
 
                         The word иностранный can be used to describe both geopolitical relationships and those of language and culture."
                 take_away_idea: русский is about ethnic identity, российский is about a relationship to the Russian Federation
@@ -52,12 +61,12 @@ exercises:
         -
                 topic: Morphology / Forms of words
                 level: All levels
-                title: "Search by analysis
+                title: "Search by analysis<br>
 
-                        Look up these analyses: Fem.Sing, Masc.Sing, Neut.Sing, and Plur
+                        Look up these analyses: Fem.Sing, Masc.Sing, Neut.Sing, and Plur<br>
 
                         What are these forms? When do we use them? (Hint: Is there a verb in the same clause? If so, which verb?)"
-                answer: "These are short form adjectives.
+                answer: "These are short form adjectives.<br>
 
                         Notice that рад ‘glad’ occurs only in short forms, has no long forms."
                 take_away_idea: We use short form adjectives in sentences with the verb быть ‘be’ (and synonyms), which is also often omitted in the present tense, as in Мы всегда рады вас видеть. ‘We’re always happy to see you.’
@@ -66,20 +75,20 @@ exercises:
         -
                 topic: Case and Prepositions
                 level: A1
-                title: "Search by dictionary
+                title: "Search by dictionary (all levels)<br>
 
-                        Look up these words: кухня, ресторан
+                        Look up these words: кухня, ресторан<br>
 
-                        Read the sentences. There are two patterns there that have to do with going to a place, being in a place, and going away from a place. Can you identify the two patterns?
+                        Read the sentences. There are two patterns there that have to do with going to a place, being in a place, and going away from a place. Can you identify the two patterns?<br>
 
-                        Once you have found the two patterns, look up and try to sort these words into two groups according to the two patterns:
+                        Once you have found the two patterns, look up and try to sort these words into two groups according to the two patterns:<br>
 
                         страна, мир, место, дом, школа, город, квартира, класс, свет, центр, улица, комната, район, театр, парк, музей, стадион, гостиница, остановка, вокзал, факультет, бассейн, общежитие, Россия, аэропорт, фабрика, столовая, аптека, номер, завод, университет, клуб, концерт, сад, площадь, здание, столица, кабинет, лекция, этаж"
-                answer: "The two patterns are:
+                answer: "The two patterns are:<br>
 
-                        на кухню (Accusative), на кухне (Locative), с кухни (Genitive)
+                        на кухню (Accusative), на кухне (Locative), с кухни (Genitive)<br>
 
-                        в ресторан (Accusative), в ресторане (Locative), из ресторана (Genitive)
+                        в ресторан (Accusative), в ресторане (Locative), из ресторана (Genitive)<br>
 
                         The pattern with в and из is used more than the one with на and с"
                 take_away_idea: The preposition на is mostly used with large, open places (стадион, фабрика, завод, остановка, свет, место, вокзал), surfaces (площадь, этаж), or events (концерт, лекция). With other places we use the preposition в.
@@ -87,7 +96,7 @@ exercises:
         -
                 topic: Singular vs. plural
                 level: A1
-                title: "Search by dictionary (А1).
+                title: "Search by dictionary (А1)<br>
                 Find words человек, ребёнок, год and look at the forms in which they are used. Do you notice anything unusual?"
                 answer: "Words человек, ребёнок, год have different stems in Single and Plural forms: человек - люди, ребёнок - дети, год - лет."
                 take_away_idea: "Some high frequency words might look different in singular and plural, it’s important to pay attention and memorize them."
@@ -95,14 +104,14 @@ exercises:
         -
                 topic: Singular vs. plural
                 level: A1
-                title: "Search by topic and choose еда (food)
+                title: "Search by topic and choose еда (food)<br>
 
                         Toggle through all the entries and look at the nouns. Notice what words appear in singular and what words appear in plural. Can you make some generalizations?"
-                answer: "Only singular in the SMARTool: вода, масло (NB! both ‘butter’ and ‘oil’), сок, сыр, мороженое, сахар, картошка (pluralis også mulig), колбаса (pluralis også mulig), чай, пиво, хлеб, мясо, молоко, вино, еда
+                answer: "Only singular in the SMARTool: вода, масло (NB! both ‘butter’ and ‘oil’), сок, сыр, мороженое, сахар, картошка (pluralis også mulig), колбаса (pluralis også mulig), чай, пиво, хлеб, мясо, молоко, вино, еда<br>
 
-                        [Note: картошка and колбаса can also appear in plural, though less often.]
+                        [Note: картошка and колбаса can also appear in plural, though less often.]<br>
 
-                        Both singular and plural in the SMARTool: продукт (usually plural if referring to food), салат (plural refers to various kinds or portions of salad), яйцо, суп (plural refers to various kinds of soup), соль (if plural usually not about food, but about chemicals), курица (plural куры is used for animals, not food), рыба (plural рыбы is used for animals, not food), яблоко
+                        Both singular and plural in the SMARTool: продукт (usually plural if referring to food), салат (plural refers to various kinds or portions of salad), яйцо, суп (plural refers to various kinds of soup), соль (if plural usually not about food, but about chemicals), курица (plural куры is used for animals, not food), рыба (plural рыбы is used for animals, not food), яблоко<br>
 
                         Only plural in the SMARTool: фрукт, овощ"
                 take_away_idea: Many foods are primarily understood as substances in Russian, even if they come in fairly large pieces (potatoes, sausages, fish, chicken). These words tend to occur mostly or exclusively in the singular. Note that фрукты, овощи, продукты (when it means ‘groceries’) almost always occur in the plural, probably because they are not homogeneous (there are lots of kinds of fruits and vegetables and groceries). Food items that one tends to count (apples, eggs), are used in both singular and plural.
@@ -111,7 +120,9 @@ exercises:
         -
                 topic: Case and Prepositions
                 level: A1
-                title: "Search by analysis and select Dat.Sing. This will show you words that occur often in the dative case, singular. Sort all the sentences into two groups. Put the sentences with prepositions before the dative case in one group, and sentences without a preposition that governs the dative in the other group. Which prepositions govern the dative case? What is the difference between them? What kind of nouns do you find in the dative case without a preposition?"
+                title: "Search by analysis and select Dat.Sing.<br>
+                This will show you words that occur often in the dative case, singular. Sort all the sentences into two groups. Put the sentences with prepositions before the dative case in one group, and sentences without a preposition that governs the dative in the other group.<br> 
+                Which prepositions govern the dative case? What is the difference between them? What kind of nouns do you find in the dative case without a preposition?"
                 answer: The prepositions are по (used with topics or ways to do things) and к (used with directions, including metaphorical ones). The nouns that appear in the dative without a preposition refer to people.
                 take_away_idea: When the dative case is used without a preposition, it mainly expresses how experiences impact human beings.
                 extra_task: ~
@@ -119,8 +130,9 @@ exercises:
         -
                 topic: Morphology
                 level: А2/B1
-                title: "Search by dictionary (all levels).
-                Find words выбегать, выводить, вывозить, выгонять, выезжать, выйти, вылетать, вынимать, вытаскивать, выходить. What meaning do these verbs have in common?"
+                title: "Search by dictionary (all levels)<br>
+                Find words выбегать, выводить, вывозить, выгонять, выезжать, выйти, вылетать, вынимать, вытаскивать, выходить. <br>
+                What meaning do these verbs have in common?"
                 answer: "Вы- is a verb prefix with the meaning ‘out (of something)’. All of the verbs have an element of meaning ‘removing something (or someone, oneself) from a container’"
                 take_away_idea: "Some verb prefixes in Russian modify meanings of verbs in specific ways. If you know the verb without the prefix, you likely can figure out what it means with one." 
                 extra_task: ~
