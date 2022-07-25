@@ -9,7 +9,7 @@ for (let key of Object.keys(json_data)) {
 
 
 const data = records[0]["exercises"]
-console.log(data)
+// console.log(data[7]["level"])
 
 
 const level_part = document.createElement("div")
@@ -36,8 +36,9 @@ function show_answer(x, answer_key) {
 function choose_level() {
     main_content.innerHTML = ""
     let level = select_level.options[select_level.selectedIndex].text
-    for (var exercise_id = 0; exercise_id <= exercises_amount; exercise_id++) {
+    for (var exercise_id = 0; exercise_id < exercises_amount; exercise_id++) {
         let level_from_db = data[exercise_id]["level"]
+        // console.log(level_from_db)
         // if (level_from_db.length > 3) {
         //     var levels = level_from_db.split("/")
         // }
@@ -94,7 +95,7 @@ level_part.append(form_level)
 function build_exercise(exercise_id) {
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
-    task_title.innerHTML = `${exercise_id}. ${data[exercise_id]["topic"]}&ensp;<i style="font-weight:normal">${data[exercise_id]["level"]}</i>`;
+    task_title.innerHTML = `${exercise_id + 1}. ${data[exercise_id]["topic"]}&ensp;<i style="font-weight:normal">${data[exercise_id]["level"]}</i>`;
     
     main_content.appendChild(task_title);
 
