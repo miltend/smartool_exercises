@@ -10,7 +10,7 @@ for (let key of Object.keys(json_data)) {
 
 const data = records[0]
 
-console.log(1)
+
 
 const level_part = document.createElement("div")
 level_part.setAttribute("class", "container px-4")

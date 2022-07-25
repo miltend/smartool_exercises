@@ -1,6 +1,5 @@
 ---
-tasks:
-        -
+- task:
         topic: Sounds and Letters
         level: A1
         title: Search by dictionary<br>
@@ -15,7 +14,7 @@ tasks:
                 In general, most Russian words begin with a consonant. This includes words that begin with е-, ю-, я-, which begin with the consonant j- (sounds like y- in English). If a Russian word begins with a vowel, it is one of these: и-, о-, or у-."
         take_away_idea: If you encounter a long new word that begins with a vowel, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, экономический means ‘economic’, and you don’t need a dictionary to figure that out.
         extra_task: ~
-        -
+- task:
         topic: Sounds and Letters
         level: A1
         title: Search by dictionary<br>
@@ -30,7 +29,7 @@ tasks:
                 In general, most Russian words begin with a consonant. This includes words that begin with е-, ю-, я-, which begin with the consonant j- (sounds like y- in English). If a Russian word begins with a vowel, it is one of these: и-, о-, or у-."
         take_away_idea: If you encounter a long new word that begins with a vowel, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, экономический means ‘economic’, and you don’t need a dictionary to figure that out.
         extra_task: ~
-        -
+- task:
         topic: Meanings of words
         level: A1
         title: "Search by dictionary
@@ -49,7 +48,7 @@ tasks:
                 The word иностранный can be used to describe both geopolitical relationships and those of language and culture."
         take_away_idea: русский is about ethnic identity, российский is about a relationship to the Russian Federation
         extra_task: ~
-        -
+- task:
         topic: Morphology / Forms of words
         level: All levels
         title: "Search by analysis
@@ -63,7 +62,7 @@ tasks:
         take_away_idea: We use short form adjectives in sentences with the verb быть ‘be’ (and synonyms), which is also often omitted in the present tense, as in Мы всегда рады вас видеть. ‘We’re always happy to see you.’
         extra_task: ~
 
-        -
+- task:
         topic: Case and Prepositions
         level: A1
         title: "Search by dictionary
@@ -84,7 +83,7 @@ tasks:
                 The pattern with в and из is used more than the one with на and с"
         take_away_idea: The preposition на is mostly used with large, open places (стадион, фабрика, завод, остановка, свет, место, вокзал), surfaces (площадь, этаж), or events (концерт, лекция). With other places we use the preposition в.
         extra_task: ~
-        -
+- task:
         topic: Singular vs. plural
         level: A1
         title: "Search by dictionary (А1).
@@ -92,7 +91,7 @@ tasks:
         answer: "Words человек, ребёнок, год have different stems in Single and Plural forms: человек - люди, ребёнок - дети, год - лет."
         take_away_idea: "Some high frequency words might look different in singular and plural, it’s important to pay attention and memorize them."
         extra_task: ~
-        -
+- task:
         topic: Singular vs. plural
         level: A1
         title: "Search by topic and choose еда (food)
@@ -108,7 +107,7 @@ tasks:
         take_away_idea: Many foods are primarily understood as substances in Russian, even if they come in fairly large pieces (potatoes, sausages, fish, chicken). These words tend to occur mostly or exclusively in the singular. Note that фрукты, овощи, продукты (when it means ‘groceries’) almost always occur in the plural, probably because they are not homogeneous (there are lots of kinds of fruits and vegetables and groceries). Food items that one tends to count (apples, eggs), are used in both singular and plural.
         extra_task: ~
 
-        -
+- task:
         topic: Case and Prepositions
         level: A1
         title: "Search by analysis and select Dat.Sing. This will show you words that occur often in the dative case, singular. Sort all the sentences into two groups. Put the sentences with prepositions before the dative case in one group, and sentences without a preposition that governs the dative in the other group. Which prepositions govern the dative case? What is the difference between them? What kind of nouns do you find in the dative case without a preposition?"
