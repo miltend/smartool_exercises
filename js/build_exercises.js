@@ -36,10 +36,14 @@ function show_answer(x, answer_key) {
 function choose_level() {
     main_content.innerHTML = ""
     let level = select_level.options[select_level.selectedIndex].text
-    for (var exercise_id = 0; exercise_id <= exercises_amount; exercise_id++) {  
+    for (var exercise_id = 0; exercise_id <= exercises_amount; exercise_id++) {
+        let level_from_db = data[exercise_id]["level"]
+        // if (level_from_db.length > 3) {
+        //     var levels = level_from_db.split("/")
+        // }
         if (level == "All levels") {
             build_exercise(exercise_id)
-        } else if (level == data[exercise_id]["level"] || data[exercise_id]["level"] == "All levels") {
+        } else if (level == level_from_db || level_from_db == "All levels") {
             build_exercise(exercise_id)
         }
     }

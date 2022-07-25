@@ -92,7 +92,7 @@ exercises:
                 answer: "Words человек, ребёнок, год have different stems in Single and Plural forms: человек - люди, ребёнок - дети, год - лет."
                 take_away_idea: "Some high frequency words might look different in singular and plural, it’s important to pay attention and memorize them."
                 extra_task: ~
-        - task:
+        -
                 topic: Singular vs. plural
                 level: A1
                 title: "Search by topic and choose еда (food)
