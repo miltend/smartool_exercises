@@ -38,17 +38,12 @@ function choose_level() {
     let level = select_level.options[select_level.selectedIndex].text
     for (var exercise_id = 0; exercise_id < exercises_amount; exercise_id++) {
         let level_from_db = data[exercise_id]["level"]
-        // console.log(level_from_db.length)
         if (level == "All levels") {
             build_exercise(exercise_id)
         } else if (level_from_db.length == 5) {
             var levels = level_from_db.split("/")
-            // console.log(level, levels[0], levels[1], level == level[0], level == level[1])
-            // console.log(level == levels[1])
-            // console.log()
             if (level == levels[0] || level == levels[1]) {
                 build_exercise(exercise_id)
-                // console.log(1)
             }
         } else if (level == level_from_db || level_from_db == "All levels") {
              
@@ -94,11 +89,6 @@ form_level.appendChild(level_button)
 
 
 level_part.append(form_level)
-
-
-
-
-
 
 
 function build_exercise(exercise_id) {
