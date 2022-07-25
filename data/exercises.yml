@@ -148,13 +148,21 @@ exercises:
                 take_away_idea: The preposition на is mostly used with large, open places (стадион, фабрика, завод, остановка, свет, место, вокзал), surfaces (площадь, этаж), or events (концерт, лекция). With other places we use the preposition в.
                 extra_task: ~
         -
-                topic: Singular vs. plural
+                topic: Morphology, Singular vs. plural
                 level: A1
                 title: "Search by dictionary (А1)<br>
                 Find words человек, ребёнок, год and look at the forms in which they are used. Do you notice anything unusual?"
                 answer: "Words человек, ребёнок, год have different stems in singular and plural forms: человек - люди, ребёнок - дети, год - лет."
                 take_away_idea: "Some high frequency words might look different in singular and plural, it’s important to pay attention and memorize them."
                 extra_task: ~
+                
+        -
+                topic: Morphology
+                level: A2/B1
+                title: "Search by dictionary (А1)<br>
+                Find the words плохой, хороший and look at the forms in which they are used. Do you notice anything unusual?"
+                answer: "Words плохой, хороший have different stems in positive and comparative forms: хороший - лучше, плохой - хуже."
+                take_away_idea: "Some high frequency adjectives might look different in positive, comparative and superlative (лучший, худший) forms, it’s important to pay attention and memorize them."
         -
                 topic: Singular vs. plural
                 level: A1
@@ -190,4 +198,10 @@ exercises:
                 answer: "Вы- is a verb prefix with the meaning ‘out (of something)’. All of the verbs have an element of meaning ‘removing something (or someone, oneself) from a container’"
                 take_away_idea: "Some verb prefixes in Russian modify meanings of verbs in specific ways. If you know the verb without the prefix, you likely can figure out what it means with one." 
                 extra_task: ~
+        -
+                topic: Meanings of words
+                level: В1/B2
+                title: "Search by dictionary (all levels)<br>
+                Find words бесценный, ценный. What are their meanings? Is there something unusual about the pair?"
+                answer: "Usually prefix бес- changes the meaning of the word to an opposite. However, бесценный is synonymous to ценный: ценный means something valuable, with high price, while бесценный means something so valuable that you cannot buy it, priceless."
 
