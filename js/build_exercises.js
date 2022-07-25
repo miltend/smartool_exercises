@@ -10,6 +10,8 @@ for (let key of Object.keys(json_data)) {
 
 const data = records[0]
 
+console.log(1)
+
 const level_part = document.createElement("div")
 level_part.setAttribute("class", "container px-4")
 level_part.setAttribute("style", "margin-top: 20px")
@@ -34,7 +36,7 @@ function show_answer(x, answer_key) {
 function choose_level() {
     main_content.innerHTML = ""
     let level = select_level.options[select_level.selectedIndex].text
-    for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {  
+    for (var exercise_id = 0; exercise_id <= exercises_amount; exercise_id++) {  
         if (level == "All levels") {
             build_exercise(exercise_id)
         } else if (level == data[exercise_id]["level"] || data[exercise_id]["level"] == "All levels") {
