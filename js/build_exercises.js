@@ -98,39 +98,35 @@ function build_exercise(exercise_id) {
         main_content.appendChild(instructions);
     }
 
-    if (data[exercise_id]["task"] != null) {
-        var subtasks_amount = Object.keys(data[exercise_id]["task"]).length;
-        var task_text = document.createElement("div");
-        
-        var task = document.createElement("p");
-        task.appendChild.innerHTML = data[exercise_id]["task"][0];
-        task_text.appendChild(task);
-        main_content.appendChild(task_text);
-    }
-
-        let answer = document.createElement("div");
-        answer.setAttribute("class", "d-grid gap-3 d-md-flex");
+    let answer = document.createElement("div");
+    answer.setAttribute("class", "d-grid gap-3 d-md-flex");
 
 
-        let answer_text = document.createElement("p");
-        answer_text.style.display = "none";
-        answer_text.style.fontSize = "15px";
-        answer_text.style.fontStyle = "italic";
-        
+    let answer_text = document.createElement("p");
+    answer_text.style.display = "none";
+    answer_text.style.fontSize = "15px";
+    answer_text.style.fontStyle = "italic";
+    
 
-        let answ_button = document.createElement("button")
-        answ_button.setAttribute("type", "button")
-        answ_button.setAttribute("class", "btn btn-outline-primary btn-sm")
-        
-        answ_button.setAttribute("style", "margin: 3px")
+    let answ_button = document.createElement("button")
+    answ_button.setAttribute("type", "button")
+    answ_button.setAttribute("class", "btn btn-outline-primary btn-sm")
+    
+    answ_button.setAttribute("style", "margin: 3px")
 
-        let new_answer = data[exercise_id]["answer"]
+    let new_answer = data[exercise_id]["answer"]
 
-        answ_button.onclick = function() {
-            show_answer(answer_text, new_answer);
-        };
-        answ_button.innerHTML = "Answer key";
+    answ_button.onclick = function() {
+        show_answer(answer_text, new_answer);
+    };
+    answ_button.innerHTML = "Answer key";
 
+    answer.appendChild(answer_text)
+
+    main_content.appendChild(answ_button)
+    main_content.appendChild(answer)
+
+    if (data[exercise_id]["take_away_idea"] != null) {
         let ta_idea = document.createElement("div");
         ta_idea.setAttribute("class", "d-grid gap-3 d-md-flex");
 
@@ -145,6 +141,7 @@ function build_exercise(exercise_id) {
         ta_idea_button.setAttribute("class", "btn btn-outline-primary btn-sm")
         ta_idea_button.setAttribute("style", "margin: 3px")
 
+
         let new_ta_idea = data[exercise_id]["take_away_idea"]
 
         ta_idea_button.onclick = function() {
@@ -153,17 +150,9 @@ function build_exercise(exercise_id) {
         ta_idea_button.innerHTML = "Take-away idea";
 
         ta_idea.appendChild(ta_idea_text)
-
-        answer.appendChild(answer_text)
-
-        main_content.appendChild(answ_button)
-        main_content.appendChild(answer)
         main_content.appendChild(ta_idea_button)
-        
-        
         main_content.appendChild(ta_idea)
-
-        
+    }       
 }
 
 
