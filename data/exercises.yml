@@ -9,6 +9,7 @@ exercises:
                 (Tip: listen to the example sentences)"
                 answer: "All of the words stated end with ь. This letter doesn’t represent a sound, it indicates softness (palatalization) of a previous consonant." 
                 extra_task: ~
+                
         -
                 topic: Sounds and Letters
                 level: A1
@@ -34,6 +35,7 @@ exercises:
                         In general, most Russian words begin with a consonant. This includes words that begin with е-, ю-, я-, which begin with the consonant j- (sounds like y- in English). If a Russian word begins with a vowel, it is one of these: и-, о-, or у-."
                 take_away_idea: If you encounter a long new word that begins with a vowel, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, аэропорт means ‘airport’, and you don’t need a dictionary to figure that out.
                 extra_task: ~
+                
         -
                 topic: Sounds and Letters
                 level: A1
@@ -49,6 +51,7 @@ exercises:
                         In general, most Russian words begin with a consonant. This includes words that begin with е-, ю-, я-, which begin with the consonant j- (sounds like y- in English). If a Russian word begins with a vowel, it is one of these: и-, о-, or у-."
                 take_away_idea: If you encounter a long new word that begins with a vowel, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, экономический means ‘economic’, and you don’t need a dictionary to figure that out.
                 extra_task: ~
+                
         -
                 topic: Sounds and Letters
                 level: A1
@@ -84,6 +87,7 @@ exercises:
                 answer: "All of the words aren’t capitalized in Russian, but are capitalized in English. Names of months and days of the week, as well as nouns and adjectives that describe ethnic identity all start with lowercase letters. Even though toponyms are capitalized (Россия, Москва), adjectives derived from them aren’t (российский, московский). <br> 
                 Exceptions are cases like Московская область, Российская Федерация, where the adjective itself is a proper name."
                 take_away_idea: "In Russian, less words are capitalized than in English. The two main cases when you should capitalize a word are proper names (Алексей, Париж) and the first word in a sentence (Мы идём домой)."
+                
         -
                 topic: Sounds and Letters
                 level: A2/B1
@@ -93,6 +97,7 @@ exercises:
                 In imperfective verbs with вы- the stress is usually after the root/in the latter part of the word."
                 take_away_idea: "If you come across a perfective verb with the prefix вы-, you should read it with the stress on said prefix."
                 extra_task: ~
+                
         -
                 topic: Meanings of words
                 level: A1
@@ -112,6 +117,7 @@ exercises:
                         The word иностранный can be used to describe both geopolitical relationships and those of language and culture."
                 take_away_idea: русский is about ethnic identity, российский is about a relationship to the Russian Federation
                 extra_task: ~
+                
         -
                 topic: Morphology / Forms of words
                 level: All levels
@@ -147,6 +153,7 @@ exercises:
                         The pattern with в and из is used more than the one with на and с"
                 take_away_idea: The preposition на is mostly used with large, open places (стадион, фабрика, завод, остановка, свет, место, вокзал), surfaces (площадь, этаж), or events (концерт, лекция). With other places we use the preposition в.
                 extra_task: ~
+                
         -
                 topic: Morphology, Singular vs. plural
                 level: A1
@@ -163,6 +170,7 @@ exercises:
                 Find the words плохой, хороший and look at the forms in which they are used. Do you notice anything unusual?"
                 answer: "Words плохой, хороший have different stems in positive and comparative forms: хороший - лучше, плохой - хуже."
                 take_away_idea: "Some high frequency adjectives might look different in positive, comparative and superlative (лучший, худший) forms, it’s important to pay attention and memorize them."
+                
         -
                 topic: Singular vs. plural
                 level: A1
@@ -198,6 +206,18 @@ exercises:
                 answer: "Вы- is a verb prefix with the meaning ‘out (of something)’. All of the verbs have an element of meaning ‘removing something (or someone, oneself) from a container’"
                 take_away_idea: "Some verb prefixes in Russian modify meanings of verbs in specific ways. If you know the verb without the prefix, you likely can figure out what it means with one." 
                 extra_task: ~
+                
+        -
+                topic: Meanings of words
+                level: B1
+                title: "Search by dictionary (B1)<br>
+                Find words одевать, надевать.<br>
+                How do they differ in meaning?"
+                answer: "Надевать usually has some item of clothing as the verb object: Я надеваю шапку (на брата) — I put the hat on my brother.<br> 
+                Одевать usually has a person who is being dressed as the verb object: Я одеваю брата — I dress my brother."
+                take_away_idea: "Надевать has an inanimate object, одевать — animate. The words might sound similar, but try to not mix them up.<br> 
+                Even some native speakers of Russian confuse those verbs. There’s a useful mnemonic that helps with differentiating the verbs: надевать одежду, одевать Надежду."
+                
         -
                 topic: Meanings of words
                 level: B1/B2
