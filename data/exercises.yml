@@ -207,7 +207,17 @@ exercises:
                 answer: "Вы- is a verb prefix with the meaning ‘out (of something)’. All of the verbs have an element of meaning ‘removing something (or someone, oneself) from a container’"
                 take_away_idea: "Some verb prefixes in Russian modify meanings of verbs in specific ways. If you know the verb without the prefix, you likely can figure out what it means with one." 
                 extra_task: ~
-                
+
+        -
+                topic: Morphology
+                level: A2
+                title: "Search by dictionary (A2)<br>
+                Find words поздравить, поздравлять and look at the sentences. What is the difference (in semantics) between perfective and imperfective examples?" 
+                answer: "Perfective поздравить denotes an action that occurs once, and the result of said action (someone has congratulated someone else) is important. Perfective can’t be used in the Present tense.<br>
+                Imperfective поздравлять denotes an action that occurs regularly (to congratulate every year) or continuously.<br> 
+                Verb поздравлять has an interesting feature: when used in the Present tense 1st person, it serves as a declaration. You congratulate someone just by stating that you congratulate them."
+                take_away_idea: "Imperfective verbs denote continuous process or a regular action. Perfective verbs denote an action that is done once or a result-oriented action."
+
         -
                 topic: Meanings of words
                 level: B1
@@ -226,3 +236,9 @@ exercises:
                 Find words бесценный, ценный. What are their meanings? Is there something unusual about the pair?"
                 answer: "Usually prefix бес- changes the meaning of the word to an opposite. However, бесценный is synonymous to ценный: ценный means something valuable, with high price, while бесценный means something so valuable that you cannot buy it, priceless."
 
+        -
+                topic: Morphology
+                level: B2
+                title: "Search by analysis (all levels)<br> 
+                Look up the forms of Imperf.Gerund and Perf.Gerund. What is the difference between Perfective and Imperfective Gerunds in Russian? How do they relate to the situation described in the sentence?"
+                answer: "Imperfective Gerunds describe an action that happens simultaneously with the verb (‘while G-ing, V’), and Perfective Gerunds describe an action that ends by the time the situation denoted by the verb begins (‘after G-ing, V’)."
