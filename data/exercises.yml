@@ -6,7 +6,7 @@ exercises:
                 title: "Search by dictionary (A1)<br>
                 Find words есть, июль, курить, любовь, ночь, обувь, октябрь, тетрадь, часть.<br> 
                 What does the last letter mean?<br>
-                (Tip: listen to the example sentences)"
+                (Hint: listen to the example sentences)"
                 answer: "All of the words stated end with ь. This letter doesn’t represent a sound, it indicates softness (palatalization) of a previous consonant." 
                 extra_task: ~
                 
@@ -15,7 +15,7 @@ exercises:
                 level: A1
                 title: "Search by dictionary (A1)<br>
                 Find words весёлый, дешёвый, жёлтый, зелёный, лёгкий, серьёзный, чёрный. How do you pronounce them? Which vowel is stressed?<br>
-                (Tip: listen to the example sentences)"
+                (Hint: listen to the example sentences)"
                 answer: "In all the adjectives from the list ё is stressed. It’s always stressed (for example, in nouns ребёнок, тётя, учёный as well)."
                 take_away_idea: Ё is almost always stressed.
                 extra_task: ~
@@ -106,7 +106,7 @@ exercises:
                         Look up these words: российский, русский, иностранный. Look at the sentences.<br>
 
                         What kinds of items can be российский and what kind can be русский? Can you compare this with the use of the word иностранный?"
-                answer: "We use российский to describe items connected to Russia as a state (паспорт, Федерация)<br>
+                answer: "We use российский to describe items connected to Russia as a state (паспорт, Федерация).<br>
 
                         We use русский to describe items connected to the Russian language, culture, and ethnic identity (алфавит, литература, авангард).<br>
 
@@ -125,7 +125,8 @@ exercises:
 
                         Look up these analyses: Fem.Sing, Masc.Sing, Neut.Sing, and Plur<br>
 
-                        What are these forms? When do we use them? (Hint: Is there a verb in the same clause? If so, which verb?)"
+                        What are these forms? When do we use them? <br>
+                        (Hint: Is there a verb in the same clause? If so, which verb?)"
                 answer: "These are short form adjectives.<br>
 
                         Notice that рад ‘glad’ occurs only in short forms, has no long forms."
