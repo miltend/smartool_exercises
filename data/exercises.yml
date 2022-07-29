@@ -4,20 +4,32 @@ exercises:
                 topic: Sounds and Letters
                 level: A1
                 title: "Search by dictionary (A1)<br>
-                Find words есть, июль, курить, любовь, ночь, обувь, октябрь, тетрадь, часть.<br> 
+                Find words есть, июль, курить, любовь, обувь, октябрь, тетрадь, часть.<br> 
                 What does the last letter mean?<br>
                 (Hint: listen to the example sentences)"
                 answer: "All of the words stated end with ь. This letter doesn’t represent a sound, it indicates softness (palatalization) of a previous consonant." 
                 extra_task: ~
-                
+        -
+                topic: Sounds and Letters
+                level: A2
+                title:": Search by analysis (all levels)<br> 
+                Look up forms of Imperf.Sing.2 and Perf.Sing.2. Listen to the example sentences. Does ь indicate softness at the end of these verb forms?"
+                extra_task: Search by dictionary and look up the words мышь, ночь, помощь and молодёжь. Does ь indicate softness of the last consonant?
+                answer: "Сonsonants ж and ш in Russian are never soft (palatalized), so ь has no phonetic meaning when used after them.<br> 
+                It indicates specific grammar forms: for example, 2nd person singular (-ешь). Ь also indicates infinitive forms (-ть, -чь) and imperatives in singular (for example, ложись). However, in the infinitive suffix -ть it also shows palatalization of т (as opposed to the -чь suffix, where ч is always soft).<br>
+                Ь as an indicator of grammar can also be found in nouns: in words like мышь, ночь, помощь, молодёжь it also doesn’t change the pronunciation of the word (ш and ж are always non-palatalized, while ч and щ are always palatalized, even when there’s no ь after them, like in the word врач). At the end of the noun in Nom.Sg -ь indicates that this noun is most likely feminine and belongs to the third declension.<br>
+                Note: there are some masculine nouns that end with -ь (names of the months, nouns denoting men, nouns that end with -тель)."
+                take_away_idea: "Ь usually indicates softness of the previous consonant. However, sometimes it has no phonetic function and doesn’t affect the way a word sounds, but indicates some grammatical properties of the word (2nd person singular verbs, infinitives, imperatives and feminine nouns)."
+
         -
                 topic: Sounds and Letters
                 level: A1
                 title: "Search by dictionary (A1)<br>
                 Find words весёлый, дешёвый, жёлтый, зелёный, лёгкий, серьёзный, чёрный. How do you pronounce them? Which vowel is stressed?<br>
                 (Hint: listen to the example sentences)"
-                answer: "In all the adjectives from the list ё is stressed. It’s always stressed (for example, in nouns ребёнок, тётя, учёный as well)."
-                take_away_idea: Ё is almost always stressed.
+                answer: "In all the adjectives from the list ё is stressed. It’s always stressed in Russian words (for example, in nouns ребёнок, тётя, учёный as well)."
+                take_away_idea: "Ё is always stressed in Russian words.<br> 
+                However, many speakers of Russian don’t consider the difference between е and ё important and use the same letter without dots in both cases. Try to memorize the way words with ё look, because sometimes they might appear a bit different."
                 extra_task: ~
 
         -
@@ -61,10 +73,10 @@ exercises:
                         What do these words have in common?
                 extra_task: If the meaning of the word in Russian differs from a similar sounding word in English, try to guess why.        
                 answer: "All of the words that begin with ф- in the SMARTool dictionary are borrowed words in Russian.<br>
-                Native Russian words do not begin with ф-. Only exceptions are фыркать (snort), фукать (from an interjection фу which shows disgust, ‘ew’)<br>
-                фабрика - fabric: same etymology (Latin faber - “a workshop, art, trade, product of art, structure, fabric”)<br>
+                Native Russian words do not begin with ф-. The only exceptions are onomatopoeic words фыркать ('snort'), фукать (‘say ew’).<br>
+                фабрика - fabric, same etymology (Latin faber - “a workshop, art, trade, product of art, structure, fabric”)<br>
                 фамилия - family name"
-                take_away_idea: If you encounter a long new word that begins with ф-, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, факультет means ‘faculty’, and you don’t need a dictionary to figure that out.
+                take_away_idea: If you encounter a new word that begins with ф-, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, факультет means ‘faculty’, and you don’t need a dictionary to figure that out.
                         
         -
                 topic: Sounds and Letters
@@ -76,7 +88,7 @@ exercises:
                 answer: "All of the words that begin with ге- in the SMARTool dictionary are borrowed words in Russian.<br>
 
                         Native Russian words do not begin with ге-."
-                take_away_idea: "If you encounter a long new word that begins with ге-, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, ген means ‘gene’, and you don’t need a dictionary to figure that out."
+                take_away_idea: "If you encounter a new word that begins with ге-, it is probably a borrowed word. If you sound it out, you will probably recognize it. For example, ген means ‘gene’, and you don’t need a dictionary to figure that out."
 
         -
                 topic: Sounds and Letters
@@ -92,10 +104,10 @@ exercises:
                 topic: Sounds and Letters
                 level: A2/B1
                 title: "Search by dictionary (all levels)<br>
-                Find words выбегать, вынимать, выезжать, выйти, вынести and listen to the example sentences. How do perfective and imperfective verbs differ?" 
-                answer: "In perfective verbs (for example, выйти, вынести) with вы- the prefix is always stressed.<br>
-                In imperfective verbs with вы- the stress is usually after the root/in the latter part of the word."
-                take_away_idea: "If you come across a perfective verb with the prefix вы-, you should read it with the stress on said prefix."
+                Find words выходить (IPFV), выйти (PFV), выносить (IPFV), вынести (PFV) and listen to the example sentences. How do these perfective and imperfective verbs differ in pronunciation?" 
+                answer: "In perfective verbs (for example, выйти, вынести) with вы- the prefix is always stressed.<br> 
+                In imperfective verbs (for example, выходить, выносить) with вы- the stress is usually after the root/in the latter part of the word."
+                take_away_idea: "If you come across a perfective verb with the prefix вы-, you should read it with the stress on the prefix"
                 extra_task: ~
                 
         -
@@ -170,7 +182,7 @@ exercises:
                 title: "Search by dictionary (А1)<br>
                 Find the words плохой, хороший and look at the forms in which they are used. Do you notice anything unusual?"
                 answer: "Words плохой, хороший have different stems in positive and comparative forms: хороший - лучше, плохой - хуже."
-                take_away_idea: "Some high frequency adjectives might look different in positive, comparative and superlative (лучший, худший) forms, it’s important to pay attention and memorize them."
+                take_away_idea: "Some high frequency adjectives might look different in positive, comparative and superlative (лучший ‘best’, худший ‘worst’) forms, it’s important to pay attention and memorize them."
                 
         -
                 topic: Singular vs. plural
