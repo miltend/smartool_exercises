@@ -58,11 +58,14 @@ function choose_level() {
 
 
 var form_level = document.createElement("div")
-form_level.innerHTML = "Choose level:"
+form_level.setAttribute("class", "float-end")
+form_level.innerHTML = "Level:"
 
 var select_level = document.createElement("select")
 select_level.setAttribute("name", "level")
 select_level.setAttribute("id", "level")
+// select_level.setAttribute("style", "margin: 12px 16px; ")
+select_level.setAttribute("class", "form-select")
 
 var array_levels = ["A1", "A2", "B1", "B2", "All levels"]
 
@@ -79,6 +82,8 @@ let level_button = document.createElement("input")
 level_button.setAttribute("type", "button")
 // choose_button.setAttribute("onclick", "choose_level()")
 level_button.setAttribute("value", "Choose")
+
+level_button.setAttribute("class", "btn btn-outline-primary btn-sm")
 
 level_button.onclick = function() {
     choose_level();
